@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      CONNECT TO ARM BAND
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+  
+  <ion-button (click)="Scan()" slot="end">
+    <ion-icon name="Bluetooth"></ion-icon>
+      <p>Scan</p> 
+  </ion-button>
+
+  <ion-card href="tabs/tab5" class="exit"> 
+    <ion-button expand="block">Exit</ion-button>
+  </ion-card>
+
+  <ion-list>
+    <ion-card-content ion-item *ngFor="let device of devices">
+      <p>{{device.name || 'Unnamed'}}</p>
+      <p>{{device.id}}</p>
+      <p>RSSI: {{device.rssi}}</p>
+    </ion-card-content>
+  </ion-list>
+  
+</ion-content>
