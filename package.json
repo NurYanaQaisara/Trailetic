@@ -20,12 +20,20 @@
     "@angular/platform-browser": "~8.1.2",
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
+<<<<<<< HEAD
     "@ionic-native/bluetooth-serial": "^5.16.0",
+=======
+    "@ionic-native/bluetooth-serial": "^5.26.0",
+>>>>>>> 083e62a25f7d1d595d0dcdcba4d27738a79065a1
     "@ionic-native/core": "^5.0.0",
     "@ionic-native/splash-screen": "^5.0.0",
     "@ionic-native/status-bar": "^5.0.0",
     "@ionic/angular": "^4.7.1",
     "cordova-plugin-bluetooth-serial": "^0.4.7",
+<<<<<<< HEAD
+=======
+    "cordova-plugin-statusbar": "^2.4.2",
+>>>>>>> 083e62a25f7d1d595d0dcdcba4d27738a79065a1
     "core-js": "^2.5.4",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
@@ -60,7 +68,15 @@
   "description": "An Ionic project",
   "cordova": {
     "plugins": {
+<<<<<<< HEAD
       "cordova-plugin-bluetooth-serial": {}
     }
   }
 }
+=======
+      "cordova-plugin-bluetooth-serial": {},
+      "cordova-plugin-statusbar": {}
+    }
+  }
+}
+>>>>>>> 083e62a25f7d1d595d0dcdcba4d27738a79065a1
